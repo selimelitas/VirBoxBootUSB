@@ -1,0 +1,7 @@
+virboxbootusb (1.0-1) unstable; urgency=medium
+
+  * Initial release.
+  * Modern dark-themed GUI, pkexec privilege flow, unique VMDK names.
+  * Fixed packaging: setuptools build, correct package name, desktop file.
+
+ -- Selim Elitaş <selimelitas7@gmail.com>  Mon, 22 Sep 2026 09:30:00 +0300

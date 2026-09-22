@@ -1,0 +1,43 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+eggs/
+.eggs/
+wheels/
+sdist/
+
+# ===== Sanal ortamlar =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+
+# ===== Debian paketleme artıkları =====
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/*.substvars
+debian/*.debhelper
+debian/virboxbootusb/
+../virboxbootusb_*.deb
+../virboxbootusb_*.buildinfo
+../virboxbootusb_*.changes
+*.deb
+
+# ===== Geçici dosyalar =====
+*.log
+*.tmp
+~$*

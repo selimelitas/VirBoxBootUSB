@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=VirBoxBootUSB
+Comment=It's an addon for booting your VMs from USB in VirtualBox.
+Comment[tr_TR]=VirtualBox'ta sanal makinelerinizi USB'den başlatmak için hazırlanmış eklenti.
+Exec=VirBoxBootUSB
+Icon=image2
+Terminal=false
+Categories=Utility;
+Name[tr_TR]=VirBoxBootUSB

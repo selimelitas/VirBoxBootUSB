@@ -1,0 +1,30 @@
+Source: virboxbootusb
+Section: utils
+Priority: optional
+Maintainer: Selim Elita? <selimelitas7@gmail.com>
+Build-Depends:
+  debhelper-compat (= 13),
+  dh-python,
+  python3-all,
+  python3-setuptools
+Standards-Version: 4.6.2
+Homepage: https://github.com/selimelitas/virboxbootusb
+Rules-Requires-Root: no
+
+Package: virboxbootusb
+Architecture: all
+Depends:
+  ${misc:Depends},
+  ${python3:Depends},
+  python3-tk,
+  policykit-1
+Recommends: virtualbox
+Description: VirtualBox VM USB Boot Addon
+ A small Tkinter GUI that creates a raw-disk VMDK descriptor for a selected
+ USB drive, allowing VirtualBox virtual machines to boot from USB.
+ .
+ Features:
+  * Lists disk devices with removable (USB) disks pinned to the top
+  * Graphical privilege escalation via pkexec (no terminal needed)
+  * One-click VMDK creation with unique names
+  * Dark themed, modern interface
