@@ -27,7 +27,7 @@ setup(
     ],
     entry_points={
         "gui_scripts": [
-            "VirBoxBootUSB=virboxbootusb.usbboot:main",
+            "VirBoxBootUSB=virboxbootusb.usbboot:master",
         ],
     },
     classifiers=[
