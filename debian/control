@@ -13,11 +13,7 @@ Rules-Requires-Root: no
 
 Package: virboxbootusb
 Architecture: all
-Depends:
-  ${misc:Depends},
-  ${python3:Depends},
-  python3-tk,
-  policykit-1
+Depends: ${python3:Depends}, ${misc:Depends}, python3-tk, pkexec | policykit-1
 Recommends: virtualbox
 Description: VirtualBox VM USB Boot Addon
  A small Tkinter GUI that creates a raw-disk VMDK descriptor for a selected
